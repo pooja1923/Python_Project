@@ -5,7 +5,7 @@ pipeline {
         // Build Stage: Clones the repository and installs dependencies
         stage('Build') {
             steps {
-                git 'https://gitlab.com/poojakarkhile91/pyhton_jenkins-cicd.git'  // Replace with your GitLab repository URL
+                git 'https://github.com/pooja1923/Python_Project.git'  // Replace with your GitLab repository URL
                 sh 'pip install -r requirements.txt'  // Install dependencies
             }
         }
